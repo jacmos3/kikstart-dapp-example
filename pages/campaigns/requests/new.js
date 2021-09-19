@@ -38,7 +38,7 @@ class RequestNew extends Component{
   render(){
     return (
       <Layout>
-      <Link route = {`/campaigns/{this.props.address}/requests`} >
+      <Link route = {`/campaigns/${this.props.address}/requests`} >
         <a>
           <Button primary>Back </Button>
         </a>
